@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="148" viewBox="0 0 1200 148" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
   <title id="title">MouXiaoJun terminal</title>
-  <desc id="desc">Building small tools for complex systems. Go, architecture and open source.</desc>
+  <desc id="desc">Building small tools for complex systems. Go 开发者，关注后端工程与架构设计。构建开源工具，记录工程实践。</desc>
   <defs>
     <linearGradient id="edge"><stop stop-color="#3fe5ff"/><stop offset=".55" stop-color="#8574ff"/><stop offset="1" stop-color="#e46bff"/></linearGradient>
     <linearGradient id="scan"><stop stop-color="#3fe5ff" stop-opacity="0"/><stop offset=".5" stop-color="#3fe5ff" stop-opacity=".2"/><stop offset="1" stop-color="#3fe5ff" stop-opacity="0"/></linearGradient>
-    <clipPath id="frame"><rect x="1" y="1" width="1198" height="146" rx="10"/></clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="238" rx="10"/></clipPath>
     <clipPath id="typing"><rect class="reveal" x="76" y="73" width="746" height="43"/></clipPath>
   </defs>
   <style>
@@ -16,7 +16,7 @@
     @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
     @media(prefers-reduced-motion:reduce){.scan,.reveal,.cursor,.signal{animation:none}.scan{display:none}}
   </style>
-  <rect x="1" y="1" width="1198" height="146" rx="10" fill="#090d19" stroke="url(#edge)" stroke-opacity=".55"/>
+  <rect x="1" y="1" width="1198" height="238" rx="10" fill="#090d19" stroke="url(#edge)" stroke-opacity=".55"/>
   <g clip-path="url(#frame)"><rect class="scan" x="0" y="0" width="160" height="148" fill="url(#scan)"/></g>
   <path d="M1 47H1199" stroke="#282841"/>
   <circle cx="26" cy="24" r="5" fill="#fc638e"/><circle cx="45" cy="24" r="5" fill="#e8be6c"/><circle cx="64" cy="24" r="5" fill="#4df2bd"/>
@@ -28,5 +28,9 @@
     <text x="76" y="105" fill="#e5ebff" font-size="30" clip-path="url(#typing)">building small tools for complex systems.</text>
     <rect class="cursor" x="822" y="81" width="16" height="30" fill="#4be6ff"/>
     <text x="1010" y="103" fill="#a191f8" font-size="19">[ go build ]</text>
+  </g>
+  <g font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="76" y="163" fill="#dce7ff" font-size="36">Go 开发者 · 后端工程 · 架构设计</text>
+    <text x="76" y="212" fill="#a9b5d0" font-size="34">构建开源工具，记录工程实践。</text>
   </g>
 </svg>

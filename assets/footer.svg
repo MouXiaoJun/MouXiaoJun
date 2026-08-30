@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title">
+  <title id="title">Stay curious. Keep building.</title>
+  <defs><linearGradient id="neon"><stop stop-color="#38e5ff"/><stop offset=".5" stop-color="#a081ff"/><stop offset="1" stop-color="#fa7ecb"/></linearGradient></defs>
+  <style>.flow{stroke-dasharray:15 480;animation:flow 10s linear infinite}@keyframes flow{to{stroke-dashoffset:-990}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+  <rect width="1200" height="150" rx="10" fill="#090d19"/>
+  <g fill="none" stroke="url(#neon)"><path d="M0 74H120l28-28h120l29 28h97m412 0h97l29 28h120l28-28h120" opacity=".3"/><path class="flow" d="M0 74H120l28-28h120l29 28h97m412 0h97l29 28h120l28-28h120" stroke-width="3"/></g>
+  <text x="600" y="70" text-anchor="middle" fill="#e4e9ff" font-family="'SFMono-Regular', Consolas, monospace" font-size="28" font-weight="600">STAY CURIOUS. KEEP BUILDING.</text>
+  <text x="600" y="106" text-anchor="middle" fill="#7e8baa" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" letter-spacing="3">把问题想清楚，把工具做简单。</text>
+</svg>

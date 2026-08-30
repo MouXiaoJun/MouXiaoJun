@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+<title id="title">distsync</title><desc id="desc">让多个进程，也能默契协作。 REDIS  /  LOCKS  /  RATE LIMITS</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11132a"/><stop offset="1" stop-color="#070b14"/></linearGradient><radialGradient id="halo"><stop stop-color="#ff78cb" stop-opacity=".16"/><stop offset="1" stop-color="#ff78cb" stop-opacity="0"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="2.5"/></filter></defs>
+<path d="M20 1H620L639 20V240L620 259H20L1 240V20Z" fill="url(#bg)" stroke="#ff78cb" stroke-opacity=".45"/>
+<ellipse cx="552" cy="100" rx="120" ry="104" fill="url(#halo)"/>
+<path d="M20 1H160M1 20V75M480 259H620L639 240V193" fill="none" stroke="#ff78cb" stroke-width="3"/>
+<g stroke="#ff78cb" fill="none" stroke-width="2" opacity=".2"><path d="M440 25H612V174H453M478 25V174M440 62H612M440 99H612M440 136H612"/></g>
+<path d="M514 83h26v26h-26z M565 65h26v26h-26z M565 127h26v26h-26z M540 96h13V78h12m-12 18v44h12" fill="none" stroke="#ff78cb" stroke-width="6" filter="url(#glow)" opacity=".45"/>
+<path d="M514 83h26v26h-26z M565 65h26v26h-26z M565 127h26v26h-26z M540 96h13V78h12m-12 18v44h12" fill="none" stroke="#ff78cb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="'SFMono-Regular', Consolas, monospace"><text x="30" y="42" fill="#ff78cb" font-size="16" letter-spacing="1">03 / DISTRIBUTED SYSTEMS</text>
+<text x="30" y="111" fill="#f2f6ff" font-size="47" font-weight="700" letter-spacing="-1.5">distsync</text></g>
+<text x="30" y="158" fill="#c3cbdf" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="23">让多个进程，也能默契协作。</text>
+<path d="M30 186H610" stroke="#ff78cb" stroke-opacity=".22"/>
+<text x="30" y="222" fill="#ff78cb" font-family="'SFMono-Regular', Consolas, monospace" font-size="14" letter-spacing=".5">REDIS  /  LOCKS  /  RATE LIMITS</text>
+<path d="M586 216h19m-7-7 7 7-7 7" stroke="#ff78cb" fill="none" stroke-width="2"/>
+</svg>

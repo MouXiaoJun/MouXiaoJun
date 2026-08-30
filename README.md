@@ -1,70 +1,80 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="MouXiaoJun — Go, architecture and developer tools" width="100%" />
+  <img src="./assets/cyber-hero.webp" alt="MouXiaoJun — Go developer and open-source builder. Build. Break. Understand." width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://mouxiaojun.github.io/"><b>个人博客 ↗</b></a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://github.com/MouXiaoJun?tab=repositories"><b>所有项目 ↗</b></a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://github.com/MouXiaoJun/go-design-pattern"><b>Go 设计模式 ↗</b></a>
+  <a href="https://mouxiaojun.github.io/"><kbd> 🌐 BLOG / 个人博客 ↗ </kbd></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/MouXiaoJun?tab=repositories"><kbd> ⌘ SOURCE / 所有项目 ↗ </kbd></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/MouXiaoJun/go-design-pattern"><kbd> ⚡ NOTES / 设计模式 ↗ </kbd></a>
 </p>
 
-### 你好，我是 MouXiaoJun
+<p align="center">
+  <img src="./assets/terminal.svg" alt="Building small tools for complex systems." width="100%" />
+</p>
 
-主要写 Go，关注后端工程、架构设计和开发者工具。喜欢把工程里反复遇到的问题，做成边界清晰、方便复用的小工具，也在博客里记录设计模式与工程实践。
+<p align="center">
+  <b>你好，我是 MouXiaoJun。</b><br />
+  主要写 Go，关注后端工程、架构设计与开发者工具。<br />
+  把反复遇到的问题做成开源工具，把实践里的思考写进博客。
+</p>
 
-`Go` · `Rust / Tauri` · `TypeScript` · `Redis / Valkey` · `OpenAPI`
+<p align="center">
+  <img src="./assets/stack.svg" alt="技术栈：Go · Rust / Tauri · TypeScript · Redis / Valkey · OpenAPI" width="100%" />
+</p>
 
-### 精选项目 / Selected work
+<h2 align="center">⚡ SELECTED BUILDS</h2>
+<p align="center"><sub>架构有边界 · 测试有状态 · 工具可复用</sub></p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/MouXiaoJun/gomodulith">gomodulith ↗</a></h3>
-      <p>让架构约定成为可执行的检查。</p>
-      <p>Go 模块化单体工具集：验证模块边界、检查依赖关系，并从代码生成架构文档。</p>
-      <p><code>Go</code> <code>Architecture</code> <code>CLI</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/MouXiaoJun/specriot">SpecRiot ↗</a></h3>
-      <p>从 API 规范出发，找到请求序列里的问题。</p>
-      <p>基于 OpenAPI 的 API 模糊测试工具，支持契约校验、依赖分析和有状态请求序列。</p>
-      <p><code>Go</code> <code>OpenAPI</code> <code>Testing</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/MouXiaoJun/distsync">distsync ↗</a></h3>
-      <p>把熟悉的同步原语，带到多个进程之间。</p>
-      <p>基于 Redis / Valkey 的分布式同步工具，提供锁、信号量、限流和领导者选举。</p>
-      <p><code>Go</code> <code>Redis</code> <code>Concurrency</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/MouXiaoJun/dict_trans">dict_trans ↗</a></h3>
-      <p>让数据编码到展示文案的转换更省事。</p>
-      <p>零依赖的 Go 数据翻译库，用 struct tag 连接字典、枚举、数据库与自定义翻译逻辑。</p>
-      <p><code>Go</code> <code>Struct tags</code> <code>Zero dependencies</code></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/MouXiaoJun/gomodulith"><img src="./assets/gomodulith.svg" alt="gomodulith：Go 模块化单体工具集，验证模块边界、依赖关系并生成架构文档。" width="400" /></a>
+  <a href="https://github.com/MouXiaoJun/specriot"><img src="./assets/specriot.svg" alt="SpecRiot：基于 OpenAPI 的 API 模糊测试，支持契约校验、依赖分析和有状态请求序列。" width="400" /></a>
+  <a href="https://github.com/MouXiaoJun/distsync"><img src="./assets/distsync.svg" alt="distsync：基于 Redis / Valkey 的分布式同步工具，提供锁、信号量、限流和领导者选举。" width="400" /></a>
+  <a href="https://github.com/MouXiaoJun/dict_trans"><img src="./assets/dict_trans.svg" alt="dict_trans：零依赖的 Go 数据翻译库，用 struct tag 连接字典、枚举、数据库和自定义翻译逻辑。" width="400" /></a>
+</p>
 
-### 小工具，也认真做 / Go toolkit
+<details>
+  <summary>📖 项目说明 / Read the details</summary>
 
-| 场景 | 工具 |
-| :--- | :--- |
-| 数据处理 | [copier](https://github.com/MouXiaoJun/copier) · 结构体复制 &nbsp; / &nbsp; [validator](https://github.com/MouXiaoJun/validator) · 数据校验 &nbsp; / &nbsp; [mask](https://github.com/MouXiaoJun/mask) · 数据脱敏 |
-| 集合与缓存 | [set](https://github.com/MouXiaoJun/set) · 泛型集合 &nbsp; / &nbsp; [lru](https://github.com/MouXiaoJun/lru) · LRU 缓存 |
-| 日常业务 | [cny](https://github.com/MouXiaoJun/cny) · 人民币大写 &nbsp; / &nbsp; [strcase](https://github.com/MouXiaoJun/strcase) · 命名转换 &nbsp; / &nbsp; [civiltime](https://github.com/MouXiaoJun/civiltime) · 日期与时间 |
+- **[gomodulith](https://github.com/MouXiaoJun/gomodulith)** — 让架构约定成为可执行的检查：验证模块边界、检查依赖关系，并从代码生成架构文档。
+- **[SpecRiot](https://github.com/MouXiaoJun/specriot)** — 基于 OpenAPI 的 API 模糊测试：契约校验、依赖分析与有状态请求序列。
+- **[distsync](https://github.com/MouXiaoJun/distsync)** — 跨进程的同步原语：基于 Redis / Valkey 的锁、信号量、限流和领导者选举。
+- **[dict_trans](https://github.com/MouXiaoJun/dict_trans)** — 用 struct tag 把编码转成展示文案，支持字典、枚举、数据库和自定义翻译，零依赖。
 
-组合使用可以看 [examples](https://github.com/MouXiaoJun/examples)：从校验、复制到集合处理与脱敏。
+</details>
 
-### 代码之外 / Notes & experiments
+<h2 align="center">🧩 THE TOOLBOX</h2>
+<p align="center"><sub>一个工具，解决一类具体问题。</sub></p>
 
-- **[个人博客](https://mouxiaojun.github.io/)** — Go 设计模式与工程随笔，把实践中的思考留下来。
-- **[go-design-pattern](https://github.com/MouXiaoJun/go-design-pattern)** — 用 Go 学习设计模式，配套示例代码。
-- **[FluxEnv](https://github.com/MouXiaoJun/FluxEnv)** — 基于 Rust / Tauri 的桌面项目环境管理工具。
+<p align="center">
+  <b>DATA PIPELINE</b><br /><br />
+  <a href="https://github.com/MouXiaoJun/validator"><code>validator · 校验</code></a>
+  → <a href="https://github.com/MouXiaoJun/copier"><code>copier · 复制</code></a>
+  → <a href="https://github.com/MouXiaoJun/set"><code>set · 集合</code></a>
+  → <a href="https://github.com/MouXiaoJun/mask"><code>mask · 脱敏</code></a>
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/MouXiaoJun/lru"><code>lru · 缓存</code></a>
+  &nbsp; <a href="https://github.com/MouXiaoJun/cny"><code>cny · 人民币大写</code></a>
+  &nbsp; <a href="https://github.com/MouXiaoJun/strcase"><code>strcase · 命名转换</code></a>
+  &nbsp; <a href="https://github.com/MouXiaoJun/civiltime"><code>civiltime · 日期时间</code></a>
+</p>
 
-<p align="center"><sub>把问题想清楚，把工具做简单。<br />Thoughtful engineering. Useful little tools.</sub></p>
+<p align="center"><a href="https://github.com/MouXiaoJun/examples">查看这些工具如何组合使用 →</a></p>
+
+<h2 align="center">🚀 BEYOND THE TERMINAL</h2>
+
+<p align="center">
+  <b><a href="https://mouxiaojun.github.io/">工程笔记 ↗</a></b><br />
+  <sub>Go 设计模式与工程随笔，把代码背后的思考留下来。</sub>
+</p>
+<p align="center">
+  <b><a href="https://github.com/MouXiaoJun/FluxEnv">FluxEnv ↗</a></b><br />
+  <sub>Rust / Tauri 桌面项目环境管理工具，探索终端之外的开发体验。</sub>
+</p>
+
+<p align="center">
+  <img src="./assets/footer.svg" alt="Stay curious. Keep building. 把问题想清楚，把工具做简单。" width="100%" />
+</p>

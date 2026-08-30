@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-labelledby="title">
+  <title id="title">Tech stack: Go, Rust, TypeScript, Redis and OpenAPI</title>
+  <g font-family="'SFMono-Regular', Consolas, monospace" font-size="23" font-weight="600">
+    <rect x="10" y="15" width="214" height="70" rx="8" fill="#09151e" stroke="#2dd4ef" stroke-opacity=".7"/>
+    <text x="32" y="59" fill="#46e5ff">GO</text><path d="M83 31V69" stroke="#235060"/><text x="105" y="59" fill="#dcefff">Golang</text>
+    <rect x="248" y="15" width="214" height="70" rx="8" fill="#17111e" stroke="#ba8bfd" stroke-opacity=".7"/>
+    <text x="270" y="59" fill="#bb94ff">RS</text><path d="M321 31V69" stroke="#4c3063"/><text x="343" y="59" fill="#e8ddff">Rust</text>
+    <rect x="486" y="15" width="242" height="70" rx="8" fill="#0c1425" stroke="#638dff" stroke-opacity=".7"/>
+    <text x="502" y="59" fill="#7a9fff">TS</text><path d="M551 31V69" stroke="#314575"/><text x="566" y="59" fill="#dfe7ff" font-size="21">TypeScript</text>
+    <rect x="752" y="15" width="202" height="70" rx="8" fill="#1b1021" stroke="#f575c6" stroke-opacity=".7"/>
+    <text x="773" y="59" fill="#f77bc9">DB</text><path d="M823 31V69" stroke="#673251"/><text x="840" y="59" fill="#ffe1f4">Redis</text>
+    <rect x="978" y="15" width="212" height="70" rx="8" fill="#0b1a1a" stroke="#56e6c2" stroke-opacity=".7"/>
+    <text x="993" y="59" fill="#5eebc6">{ }</text><path d="M1044 31V69" stroke="#265a4f"/><text x="1059" y="59" fill="#d6fff1" font-size="21">OpenAPI</text>
+  </g>
+</svg>

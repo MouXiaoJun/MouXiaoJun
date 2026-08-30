@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+<title id="title">gomodulith</title><desc id="desc">让架构规则，变成可执行的检查。 BOUNDARIES  /  DEPENDENCIES  /  CLI</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11132a"/><stop offset="1" stop-color="#070b14"/></linearGradient><radialGradient id="halo"><stop stop-color="#40e8ff" stop-opacity=".16"/><stop offset="1" stop-color="#40e8ff" stop-opacity="0"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="2.5"/></filter></defs>
+<path d="M20 1H620L639 20V240L620 259H20L1 240V20Z" fill="url(#bg)" stroke="#40e8ff" stroke-opacity=".45"/>
+<ellipse cx="552" cy="100" rx="120" ry="104" fill="url(#halo)"/>
+<path d="M20 1H160M1 20V75M480 259H620L639 240V193" fill="none" stroke="#40e8ff" stroke-width="3"/>
+<g stroke="#40e8ff" fill="none" stroke-width="2" opacity=".2"><path d="M440 25H612V174H453M478 25V174M440 62H612M440 99H612M440 136H612"/></g>
+<path d="M530 62h46v35h-46z M512 132h28v25h-28z M567 132h28v25h-28z M553 97v18m-27 17v-17h55v17" fill="none" stroke="#40e8ff" stroke-width="6" filter="url(#glow)" opacity=".45"/>
+<path d="M530 62h46v35h-46z M512 132h28v25h-28z M567 132h28v25h-28z M553 97v18m-27 17v-17h55v17" fill="none" stroke="#40e8ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="'SFMono-Regular', Consolas, monospace"><text x="30" y="42" fill="#40e8ff" font-size="16" letter-spacing="1">01 / ARCHITECTURE</text>
+<text x="30" y="111" fill="#f2f6ff" font-size="47" font-weight="700" letter-spacing="-1.5">gomodulith</text></g>
+<text x="30" y="158" fill="#c3cbdf" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="23">让架构规则，变成可执行的检查。</text>
+<path d="M30 186H610" stroke="#40e8ff" stroke-opacity=".22"/>
+<text x="30" y="222" fill="#40e8ff" font-family="'SFMono-Regular', Consolas, monospace" font-size="14" letter-spacing=".5">BOUNDARIES  /  DEPENDENCIES  /  CLI</text>
+<path d="M586 216h19m-7-7 7 7-7 7" stroke="#40e8ff" fill="none" stroke-width="2"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">MouXiaoJun — Go, architecture and developer tools</title>
+  <desc id="desc">A dark teal banner with mint typography and a connected module diagram.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#203637" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="360" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#101f22"/>
+    <rect x="758" width="442" height="360" fill="url(#grid)" opacity="0.58"/>
+    <path d="M0 0H1200" stroke="#a3e6c5" stroke-width="6"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+      <g fill="#a3e6c5" font-family="'SFMono-Regular', Consolas, monospace" font-size="15" letter-spacing="2.5">
+        <circle cx="65" cy="62" r="4"/>
+        <text x="82" y="67">MOUXIAOJUN / OPEN SOURCE</text>
+      </g>
+      <text x="60" y="159" fill="#f2f7f4" font-size="74" font-weight="700" letter-spacing="-3">MouXiaoJun<tspan fill="#a3e6c5">.</tspan></text>
+      <text x="63" y="210" fill="#bed0cc" font-size="24">Thoughtful engineering. Useful little tools.</text>
+      <path d="M64 252H710" stroke="#34504e"/>
+      <text x="64" y="294" fill="#a3e6c5" font-family="'SFMono-Regular', Consolas, monospace" font-size="15" letter-spacing="1">GO  /  ARCHITECTURE  /  DEVELOPER TOOLS</text>
+    </g>
+    <g fill="none" stroke="#5c8a7e" stroke-width="2">
+      <path d="M976 128V174M867 219V190Q867 174 883 174H1065Q1081 174 1081 190V219"/>
+      <path d="M976 174V260" stroke-dasharray="4 6"/>
+    </g>
+    <g font-family="'SFMono-Regular', Consolas, monospace" text-anchor="middle">
+      <rect x="901" y="68" width="150" height="64" rx="12" fill="#a3e6c5"/>
+      <text x="976" y="109" font-size="25" font-weight="700" fill="#152e29">go.mod</text>
+      <rect x="806" y="213" width="124" height="54" rx="10" fill="#162d2e" stroke="#527e72"/>
+      <text x="868" y="247" font-size="19" fill="#d5e7df">build</text>
+      <rect x="1019" y="213" width="124" height="54" rx="10" fill="#162d2e" stroke="#527e72"/>
+      <text x="1081" y="247" font-size="19" fill="#d5e7df">verify</text>
+      <circle cx="976" cy="174" r="5" fill="#a3e6c5"/>
+      <circle cx="976" cy="278" r="13" fill="#162d2e" stroke="#527e72"/>
+      <path d="m971 278 4 4 7-8" fill="none" stroke="#a3e6c5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
